@@ -2,4 +2,19 @@ name = 'Alex'
 age = 45
 family = ['Anna', 'Victor', 'Alex', 'Jhon']
 
-print(type(name))
+print('#' * 28)
+
+print(f'Тип name: {type(name)}')
+print(f'Тип age: {type(age)}')
+print(f'Тип family: {type(family)}')
+
+print('#' * 28)
+
+print(f'ID name: {id(name)}')
+print(f'ID age: {id(age)}')
+print(f'ID family: {id(family)}')
+
+import keyword
+kw_list = keyword.kwlist
+for kw in kw_list:
+    print(kw)
